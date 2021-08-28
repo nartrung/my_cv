@@ -144,16 +144,16 @@ img{
         transition: .5s;
     }
     .home__social{
+        display: block;
         position: relative;
-        top:-100px;
         min-width: 100px;
-        display: flex;
-        flex-direction: row;
+        top: 100px;
         max-height:50px ;
         justify-content: center;
         padding-left: 20px;
     }
     .home__social-icon{
+        display: inline-block;
         margin: 0 5px;
     }
     .home__img{
